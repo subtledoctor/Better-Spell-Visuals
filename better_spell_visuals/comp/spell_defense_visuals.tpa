@@ -263,12 +263,14 @@ IF_EXISTS BUT_ONLY
 /*
 18) add spfirest/spfiresr vvc and spfiresr bam (renamed) to fire shield red
 */
+/*
 // don't rename, just overwrite
 COPY ~better_spell_visuals/data/bam-vvc/spfiresr.bam~ ~override~
 COPY ~better_spell_visuals/data/bam-vvc/spfiresr.vvc~ ~override~
   WRITE_ASCII 0x08 ~spfiresr~ #8
 COPY ~better_spell_visuals/data/bam-vvc/spfirest.vvc~ ~override~
   WRITE_ASCII 0x08 ~spfiresr~ #8
+*/
 
 /* don't need to copy
 COPY_EXISTING ~spwi418.spl~ ~override~
@@ -278,7 +280,6 @@ COPY_EXISTING ~spwi418.spl~ ~override~
 
 /*
 19) replace mestsh.vvc with spfiresa/spfiresb vvc and spfiresb bam (renamed) in spwi526, dwsw526, spwi403, dwsw403, dw#w526a
-*/
 COPY ~better_spell_visuals/data/bam-vvc/spfiresb.bam~ ~override~
 COPY ~better_spell_visuals/data/bam-vvc/spfiresb.vvc~ ~override~
   WRITE_ASCII 0x08 ~spfiresb~ #8
@@ -320,6 +321,7 @@ ACTION_IF (FILE_CONTAINS_EVALUATED (~SPELL.IDS~ ~[ %TAB%]WIZARD_FIRE_SHIELD_BLUE
     IF_EXISTS BUT_ONLY
   END
 END
+*/
 
 /*
 20) replace spturni2 with mybluorb vvc and bam (renamed) in spwi519, dwsw519, dw#w519a

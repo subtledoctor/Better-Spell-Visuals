@@ -45,7 +45,7 @@ LAF glows_pulses END
 
 */
 
-
+/*
 // ------------------------------------------------------------------------
 // ------------------------------------------------------------------------
 //
@@ -67,7 +67,7 @@ DESIGNATED 32
 INCLUDE ~better_spell_visuals/comp/bubb_mirror_image_transparency.tpa~
 
 LAF mi_transparency INT_VAR chosen_transparency = 85 END
-
+*/
 
 /*
 // ------------------------------------------------------------------------
